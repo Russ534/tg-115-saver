@@ -1,0 +1,5 @@
+.git/
+data/
+*.session
+__pycache__/
+*.pyc
