@@ -1,0 +1,11 @@
+services:
+  tg-115-saver:
+    build: .
+    image: tg-115-saver:latest
+    container_name: tg-115-saver
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+    # 需要代理访问 Telegram 时放开：
+    # environment:
+    #   - SAVER_PROXY=http://192.168.1.1:7890

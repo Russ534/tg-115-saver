@@ -1,0 +1,13 @@
+{
+  "api_id": 123456,
+  "api_hash": "你的api_hash（my.telegram.org 申请）",
+  "session": "tg115saver",
+  "allowed_chats": ["@某分享群", "-1001234567890"],
+  "allow_private": true,
+  "cookie": "115 的 Cookie（浏览器登录后 F12 复制整段 Cookie 头）",
+  "target_cid": 123456789,
+  "target_name": "/我的网盘/待整理",
+  "webhook_url": "",
+  "dedup_hours": 24,
+  "proxy": ""
+}
